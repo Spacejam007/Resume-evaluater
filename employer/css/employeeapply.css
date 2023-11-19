@@ -1,0 +1,93 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&family=Poppins:ital,wght@0,300;1,400&family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-size: large;
+    color: black; 
+    font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #fff;
+    
+
+}
+.one{
+    background-color: #2C1293;
+    height:55px;
+    text-align: start;
+    color:white;
+    font-size: x-large;
+    margin-top: 10px;
+    position:sticky;
+    top:0px;
+    z-index:5;
+    
+   
+}
+.one a{
+    font-size: x-large;
+    margin-top: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.out-in h1{
+    margin: 100px;
+    font-size:3rem;
+}
+input{
+    background-color: #F3F3F3;
+    width:500px;
+    border-radius: 15px;
+    height:50px;
+    font-size: larger;
+    color: black;
+    text-align: center;
+}
+.grid1 label{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin:50px;
+    
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    /*gap:50px;*/
+    margin:50px;
+    gap:50px;
+}
+.grid2 input{
+    width:1220px;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin:50px;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    margin:50px;
+}
+.grid4 input{
+    width:1220px;
+}
+form button{
+   margin:50px;
+   width:450px;
+   height:50px;
+   color:black;
+}
+button{
+    color:black;  
+    margin:0px;
+    margin-left: 1000px;
+   width:450px;
+   height:50px;
+   color:black;  
+}

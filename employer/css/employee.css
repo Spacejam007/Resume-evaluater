@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+   }
+   #heading{
+    padding:10px;
+    position: absolute;
+   }
+   body{
+    background: linear-gradient(50deg,#153677,#4e085f)
+   }
+.nav-bar{
+    background-color:#610C9F;
+    
+
+}
+h1{
+    color:white;
+}
+.nav-bar ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    color:white;
+    font-size: larger;
+}
+.nav-bar li{
+    padding:25px;
+    list-style-type: none;
+    display: inline;
+
+}
+.in{
+   position:sticky;
+   top:0px;
+   background-color: #2C1293;
+   z-index: 5;
+   
+}
+a:hover{
+    color:rgb(226, 30, 30);
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+img{
+   border-radius: 50px;
+}
+
+.container{
+   height:1000px;
+   margin:auto;
+   
+   
+  
+}
+.left{
+    position:absolute;
+    left:0px;
+  padding: 65px; 
+  font-size: large; 
+  height: 800px;
+  
+}
+.right{
+    position :absolute;
+    left:50%;
+    padding:25px;
+    text-align: center;
+}
+.right li{
+   list-style-type: none;
+}
+#loginheader{
+    font-size: xxx-large;
+}
+button{
+    width:300px;
+    height:5em;
+    background-color: green;
+    border-radius: 25px;
+}
+.curve{
+    height:100px;
+   
+}
+.avail{
+    margin:40px;
+    font-size:x-large;
+   text-align: center;
+    
+}
+.content{
+    text-align: center;
+}
+.boxes{
+    width:400px;
+    
+    height:400px;
+    background-color: palegreen;
+    border-radius: 25px;
+    margin:auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 50px;
+    row-gap: 50px;
+    position:relative;
+    left:40px;
+    border-radius: 40px;
+    
+
+
+}
+.one{
+    background-image: url(cyber.jpg);
+    object-fit: fill;
+}
+.two{
+    background-image: url(web.jpg);
+}
+.three{
+    background-image: url(ml.jpg);
+}
+.four{
+    background-image: url(data.jpg);
+}
+.five{
+    background-image: url(python.jpg);
+}
+@media only screen and (max-width: 400px) {
+    *{
+        font-size: small;
+    }
+    .right{
+        position:static;
+        height:auto;
+
+    }
+    .left{
+        position: static;
+        height:auto;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+        margin:5px;
+    }
+}
+i{
+    padding:10px;
+    width:55px;
+    height:55px;
+}
+li:hover{
+   text-decoration: underline;
+}
+.bottom{
+    position: sticky;
+    bottom:0px;
+    background-color: #610C9F;
+}
+@media only screen and (max-width: 400px) {
+    .grid {
+      grid-template-columns: repeat(1,auto);
+      gap:50px;
+    }
+    .left{
+        position:relative;
+
+    }
+    .right{
+        position:relative;
+    }
+    .boxes{
+        width:300px;
+        
+        height:300px;
+        background-color: palegreen;
+        border-radius: 25px;
+        margin:auto;
+    }
+
+  }
+  .dis{
+    margin:25px;
+    border-radius: 25px;
+    border-color: aliceblue;
+    text-align: start;
+    height: 200px;
+    background-color: rgb(143, 130, 236);
+  }
